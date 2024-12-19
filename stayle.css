@@ -1,0 +1,51 @@
+.a{
+    /* background-color: aqua;  */
+     padding: 10px;
+    grid-template-columns: repeat(4,auto); 
+    /* height: 20px;
+    width: 20px;  */
+     grid-template-rows: 100px 200px; 
+    display: grid;
+    gap: 10px ;
+    }
+    .a div{
+    
+    background-color: rgb(42, 65, 165);
+    width: 200px;
+    }
+    /*.......task2.....*/
+
+
+
+   *{ 
+    padding: 10px; 
+   
+    grid-template-columns: repeat(3,auto);
+   
+    display: grid;}
+    .sss{
+        grid-template-rows: 100px 200px; 
+        width: 300px;
+       gap: 10px;
+    }
+     .mmm{
+
+     grid-template-columns:200px 100px ;
+     }
+     /*.....task3....*/
+     .Header{
+        background-color: yellow;
+     }
+     .Nav{
+    background-color: aqua;
+
+     }
+    .Sidabar{
+        background-color: rgba(255, 0, 0, 0.671);
+     }
+     .Article{
+        background-color: grey;
+     }
+     .Footer{
+      background-color: rgba(0, 0, 255, 0.705);
+     }
